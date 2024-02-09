@@ -1,0 +1,128 @@
+.App {
+  background-image: url(./imgs/gradient.png);
+  background-size: 100% 100%;
+  background-position: center;
+  margin: 0;
+  rotate: revert;
+  height: 100vh;  
+}
+
+
+
+.App-logo {
+  background-position: center;
+  border-radius: 20px; 
+  background-size: 200px 200px;
+  height: 98vmin;  
+}
+
+.App-header {
+  position: relative;
+  border-radius: 10px; 
+  height: 100vmin; 
+  
+}
+
+.App-header img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+ 
+
+.header-txt{
+   font-size:x-large;
+   font-family:Arial, Helvetica, sans-serif;
+   color: darkblue;
+   z-index: 1;
+   position: relative ;
+   top: 20%;
+   left: 50%;
+   transform: translate(-50%, -50%);  
+}
+.header-txt div{
+   text-align: center; 
+}
+
+.header-txt #t1{ 
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 38px; 
+
+}
+
+.header-txt #t2{ 
+  text-transform: uppercase;
+  font-size: 28px;
+  text-transform: capitalize;
+}
+
+.header-txt #t3{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.info-txt{
+
+  font-size:medium;
+  font-family:Arial, Helvetica, sans-serif;
+  color: darkblue;
+  z-index: 1;
+  position: relative ;
+  top: 70%;
+  left: 80%;
+  transform: translate(-50%, -50%); 
+ 
+  border-color: gray;
+  
+
+}
+
+.info-txt #t3{
+  align-content: flex-end;
+}
+
+
+.info-txt #t2{
+  align-content: flex-end;
+}
+.info-txt #t1{
+  align-content: flex-end;
+}
+
+
+.info-txt img{ 
+  position: static;
+  width: 32px;
+  height: 32px;
+
+}
+
+.lista {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lista li {
+  width: 400px;  
+  margin-bottom: 10px;  
+  display: flex;  
+  justify-content: left; 
+}
+
+.contenido {
+  display: flex;  
+  align-items: center;  
+  width: -webkit-fill-available;
+}
+
+.contenido div {
+  margin-right: 10px;
+}
+
+ 
+ 
